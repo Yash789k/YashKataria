@@ -6,7 +6,9 @@ node_modules/
 .env
 .env.local
 
-Yash_CL.pdf
+Yash_CL_old2.pdf
 Yash_CVold3.pdf
-Yash_CV.pdf
 *.pdf
+!Yash_CV.pdf
+!Yash_CL.pdf
+!Yash_Portfolio.pdf
