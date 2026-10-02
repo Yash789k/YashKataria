@@ -1,10 +1,10 @@
 # YashKataria
 
-Personal website and portfolio for Yash Kataria.
+Personal website and portfolio for Yash Kataria: <https://yashkataria.com>.
 
 ## Cloudflare Pages
 
-Connect this GitHub repository to a Cloudflare Pages project with:
+Hosted on Cloudflare Pages as `yashkataria`, connected to this GitHub repository:
 
 - Production branch: `main`
 - Framework preset: `None`
@@ -12,9 +12,9 @@ Connect this GitHub repository to a Cloudflare Pages project with:
 - Build output directory: `dist`
 - Root directory: leave blank
 
-Pushes to `main` automatically rebuild and deploy the site once Git integration
-is connected. Add `yashkataria.com` and `www.yashkataria.com` through the project's
-**Custom domains** settings so Cloudflare configures DNS and HTTPS.
+Pushes to `main` automatically rebuild and deploy the site. Both
+`yashkataria.com` and `www.yashkataria.com` are connected through the project's
+**Custom domains** settings with Cloudflare-managed DNS and HTTPS.
 
 The build publishes only `index.html`, `404.html`, `assets/`, and the three
 public downloads: `Yash_CV.pdf`, `Yash_CL.pdf`, and `Yash_Portfolio.pdf`.
