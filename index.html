@@ -890,6 +890,19 @@
       height: 100%
     }
 
+    .gfx-project {
+      width: 100%;
+      height: 100%;
+      background: #0b1020
+    }
+
+    .gfx-project img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain
+    }
+
     #modal-bg {
       position: fixed;
       inset: 0;
@@ -1361,6 +1374,186 @@
       <span class="slabel reveal">Projects</span>
       <h2 class="stitle reveal">Things I've built.</h2>
       <div class="bento">
+
+        <!-- ─── Canasta ─── -->
+        <div class="pc reveal">
+          <div class="pcard" data-modal="m8">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/canasta.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>Canasta</h3>
+              <div class="ptag">Real-Time Multiplayer Card Game</div>
+              <p>A 2-vs-2 Rajasthani Canasta game with online rooms, solo play against bots, and a dedicated rules engine for melds, wild cards, team reserves, and round scoring.</p>
+              <div class="chips">
+                <span class="chip cre">React</span>
+                <span class="chip cts">TypeScript</span>
+                <span class="chip cpy">FastAPI</span>
+                <span class="chip cnl">Socket.IO</span>
+                <span class="chip cmp">Zustand</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Shaun-XD/Canasta-website" target="_blank" rel="noopener" class="bsm" aria-label="View Canasta on GitHub">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <button class="bsm bsma" onclick="openModal('m8')" aria-label="Explore Canasta">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── Agent Runtime Lab ─── -->
+        <div class="pc reveal" style="transition-delay:.15s">
+          <div class="pcard" data-modal="m9">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/agent-runtime-lab.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>Agent Runtime Lab</h3>
+              <div class="ptag">Agent Runtime Research · Foundations</div>
+              <p>Provider-neutral runtime foundations: typed contracts, validated run-state transitions, scoped default-deny policies, and a local policy-validation API, backed by property and adversarial tests.</p>
+              <div class="chips">
+                <span class="chip cpy">Python</span>
+                <span class="chip cmp">FastAPI</span>
+                <span class="chip cnl">Pydantic</span>
+                <span class="chip cca">PyYAML</span>
+                <span class="chip csk">Hypothesis</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Yash789k/agent-runtime-lab" target="_blank" rel="noopener" class="bsm" aria-label="View Agent Runtime Lab on GitHub (private repository)">
+                  <i class="fab fa-github"></i> GitHub · Private
+                </a>
+                <button class="bsm bsma" onclick="openModal('m9')" aria-label="Explore Agent Runtime Lab">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── PatchWatch + EvalLab ─── -->
+        <div class="pc reveal">
+          <div class="pcard" data-modal="m10">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/patchwatch.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>PatchWatch + EvalLab</h3>
+              <div class="ptag">Python Dependency Upgrade Evaluator</div>
+              <p>An evidence-first dependency upgrade workflow: inspect a Python repo, approve a migration plan, verify repairs in Docker, and review the patch with check logs and independent evaluation.</p>
+              <div class="chips">
+                <span class="chip cpy">Python</span>
+                <span class="chip cts">Docker</span>
+                <span class="chip cnl">Pydantic</span>
+                <span class="chip cmp">SQLAlchemy</span>
+                <span class="chip cca">uv</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Yash789k/python-dependency-upgrade-evaluator" target="_blank" rel="noopener" class="bsm" aria-label="View Python Dependency Upgrade Evaluator on GitHub">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <button class="bsm bsma" onclick="openModal('m10')" aria-label="Explore PatchWatch and EvalLab">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── MERIDIAN ─── -->
+        <div class="pc reveal" style="transition-delay:.15s">
+          <div class="pcard" data-modal="m11">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/meridian.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>MERIDIAN</h3>
+              <div class="ptag">Daily Intelligence Terminal</div>
+              <p>A daily dashboard combining live markets, curated news, weather, job listings, and personal planning. Optional Gemini briefings synthesize the day's signals, with a rule-based fallback.</p>
+              <div class="chips">
+                <span class="chip cre">React</span>
+                <span class="chip cjs">JavaScript</span>
+                <span class="chip cmp">Express</span>
+                <span class="chip cca">Tailwind CSS</span>
+                <span class="chip cnl">Gemini</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Yash789k/orchids-api-key-orchestrator" target="_blank" rel="noopener" class="bsm" aria-label="View MERIDIAN on GitHub (private repository)">
+                  <i class="fab fa-github"></i> GitHub · Private
+                </a>
+                <button class="bsm bsma" onclick="openModal('m11')" aria-label="Explore MERIDIAN">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── NexusIDE ─── -->
+        <div class="pc reveal">
+          <div class="pcard" data-modal="m12">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/nexuside.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>NexusIDE</h3>
+              <div class="ptag">Local AI Coding Workspace</div>
+              <p>A shared coding-agent engine across a VS Code extension, browser dashboard, and CLI. Route tasks across model providers, review proposed edits, approve tests, and inspect local execution traces.</p>
+              <div class="chips">
+                <span class="chip cts">TypeScript</span>
+                <span class="chip cre">React</span>
+                <span class="chip cmp">Node.js</span>
+                <span class="chip cnl">VS Code</span>
+                <span class="chip cca">Playwright</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Yash789k/nexuside" target="_blank" rel="noopener" class="bsm" aria-label="View NexusIDE on GitHub">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <button class="bsm bsma" onclick="openModal('m12')" aria-label="Explore NexusIDE">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── ML Trade Engine ─── -->
+        <div class="pc reveal" style="transition-delay:.15s">
+          <div class="pcard" data-modal="m13">
+            <div class="pshine"></div>
+            <div class="pgfx">
+              <div class="gfx-project">
+                <img src="assets/projects/ml-trade-engine.svg" alt="" width="480" height="240" loading="lazy">
+              </div>
+            </div>
+            <div class="pbody">
+              <h3>ML Trade Engine</h3>
+              <div class="ptag">Quantitative Research &amp; ML Backtesting</div>
+              <p>A Python research pipeline combining XGBoost, LightGBM, and LSTM signals with walk-forward validation, out-of-sample backtests, Monte Carlo simulations, and layered risk controls.</p>
+              <div class="chips">
+                <span class="chip cpy">Python</span>
+                <span class="chip csk">XGBoost</span>
+                <span class="chip cmp">LightGBM</span>
+                <span class="chip ccv">PyTorch</span>
+                <span class="chip cnl">MLflow</span>
+              </div>
+              <div class="cbtns">
+                <a href="https://github.com/Yash789k/ML-TradeEngine" target="_blank" rel="noopener" class="bsm" aria-label="View ML Trade Engine on GitHub">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <button class="bsm bsma" onclick="openModal('m13')" aria-label="Explore ML Trade Engine">Explore <i class="fa fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- ─── PROJECT CARD 1: ContextSign ─── -->
         <div class="pc reveal">
@@ -2033,6 +2226,110 @@
   <script>
     /* ── Modal data ── */
     const MODALS = {
+      m8: {
+        title: 'Canasta',
+        tag: 'Rajasthani Canasta · Online Multiplayer & Solo Bots',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/canasta.svg',
+        desc: 'A browser-based, 2-vs-2 Canasta game built around the Rajasthani ruleset. A React and TypeScript frontend supports solo bot games and online room play through a FastAPI real-time backend, with the game rules isolated from the UI for testing.',
+        feats: [
+          '108-card rules engine with set and sequence validation, wild-card limits, and Canasta/Limpa scoring',
+          'Dynamic wild-card Slide, team Pozzetto reserves, Top Touch pickup, and Show/Open Show conditions',
+          'Online room creation and joining with Socket.IO; solo mode fills the other three seats with bots',
+          'Zustand game state, responsive Tailwind styling, and original SVG/CSS card and table visuals',
+          'Independent Vitest coverage for the rules engine'
+        ],
+        chips: ['cre:React', 'cts:TypeScript', 'cpy:FastAPI', 'cnl:Socket.IO', 'cmp:Zustand'],
+        github: 'https://github.com/Shaun-XD/Canasta-website',
+        demo: null
+      },
+      m9: {
+        title: 'Agent Runtime Lab',
+        tag: 'Provider-Neutral Agent Runtime · M0 Research Foundations',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/agent-runtime-lab.svg',
+        desc: 'Research foundations for a provider-neutral agent runtime. The current milestone implements typed contracts, run-state validation, scoped default-deny policy, and a local policy-validation API. Agent and tool execution are future milestones.',
+        feats: [
+          'Versioned Pydantic contracts for runs, budgets, tools, policy decisions, events, verification, and skills',
+          'Run-state transitions with expected sequence checks and verifier evidence required for success',
+          'Bounded YAML policy compilation rejects ambiguous input and unscoped authorizing rules',
+          'Deterministic policy precedence, capability scoping, revocation, and approval requirements',
+          'Loopback-only FastAPI validation endpoint with transition, property, adversarial, and API tests'
+        ],
+        chips: ['cpy:Python', 'cmp:FastAPI', 'cnl:Pydantic', 'cca:PyYAML', 'csk:Hypothesis'],
+        github: 'https://github.com/Yash789k/agent-runtime-lab',
+        private: true,
+        demo: null
+      },
+      m10: {
+        title: 'PatchWatch + EvalLab',
+        tag: 'Python Dependency Upgrade Evaluator · Evidence & Verification',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/patchwatch.svg',
+        desc: 'PatchWatch inspects Python repositories, plans constrained dependency migrations, and produces reviewable patches from isolated Docker checks. EvalLab independently grades outcomes and policy compliance. Curated syntax-aware recipes drive the default workflow without model calls.',
+        feats: [
+          'Fingerprint-bound plans and explicit approval prevent execution against a changed repository',
+          'Supported Pydantic and SQLAlchemy migrations, bounded repairs, and protected tests and CI files',
+          'Docker checks use read-only mounts, non-root execution, resource limits, and offline tests',
+          'Portable HTML evidence viewer combines patch diffs, check logs, plans, and decision traces',
+          'Eight replayable benchmark scenarios with independent graders and regression comparisons; original source remains unchanged'
+        ],
+        chips: ['cpy:Python', 'cts:Docker', 'cnl:Pydantic', 'cmp:SQLAlchemy', 'cca:uv'],
+        github: 'https://github.com/Yash789k/python-dependency-upgrade-evaluator',
+        demo: null
+      },
+      m11: {
+        title: 'MERIDIAN',
+        tag: 'Daily Intelligence Terminal · orchids-api-key-orchestrator',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/meridian.svg',
+        desc: 'A dense daily intelligence dashboard bringing markets, news, weather, jobs, and personal planning into one workspace. The React frontend talks to an Express API that caches upstream feeds and optionally uses Gemini to synthesize a daily briefing.',
+        feats: [
+          'Market watchlists, ticker search, interactive charts, and boards spanning indices, commodities, crypto, and FX',
+          'Deduplicated news streams for markets, tech/AI, and world headlines from RSS and Hacker News',
+          'Optional Gemini briefings with a deterministic digest fallback when no model key is configured',
+          'Weather forecasts, job listings with browser-based CV matching, tasks, notes, agenda, and focus tools',
+          'Browser-local preferences and optional account sync; per-route caching and independent feed error handling'
+        ],
+        chips: ['cre:React', 'cjs:JavaScript', 'cmp:Express', 'cca:Tailwind CSS', 'cnl:Gemini'],
+        github: 'https://github.com/Yash789k/orchids-api-key-orchestrator',
+        private: true,
+        demo: null
+      },
+      m12: {
+        title: 'NexusIDE',
+        tag: 'Local AI Coding Workspace · VS Code, Dashboard & CLI',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/nexuside.svg',
+        desc: 'A local coding workspace with IDE and Agent modes sharing one engine across a VS Code extension, browser dashboard, and cross-platform CLI. Bring provider credentials to plan work, inspect files, review proposed edits, and verify changes through approved tests.',
+        feats: [
+          'Provider adapters for OpenAI, Anthropic, Gemini, OpenRouter, and OpenAI-compatible Ollama',
+          'Task-aware routing with capability filters, cost/quality preferences, and temporary-error fallback',
+          'Diff review, conflict detection, persistent approvals, and resumable runs',
+          'Approved test targets and an isolated Playwright browser with an explicit domain allowlist',
+          'Local JSONL traces, token/cost/latency accounting, deterministic evaluation, and packaged CLI/VSIX releases'
+        ],
+        chips: ['cts:TypeScript', 'cre:React', 'cmp:Node.js', 'cnl:VS Code', 'cca:Playwright'],
+        github: 'https://github.com/Yash789k/nexuside',
+        demo: null
+      },
+      m13: {
+        title: 'ML Trade Engine',
+        tag: 'ML Ensemble Signals · Backtesting & Risk Research',
+        gfxClass: 'gfx-project',
+        image: 'assets/projects/ml-trade-engine.svg',
+        desc: 'A Python quantitative research pipeline spanning market data, feature engineering, ensemble modeling, out-of-sample simulation, and risk analysis. XGBoost, LightGBM, and PyTorch LSTM models generate directional signals for evaluating trading strategies.',
+        feats: [
+          'Cached OHLCV and macro data with technical, statistical, cross-asset, and HMM regime features',
+          'Purged walk-forward validation, Optuna tuning, and MLflow experiment tracking',
+          'Weighted ensemble probabilities feed backtests that account for commission and slippage',
+          'Block-bootstrap Monte Carlo simulations and confidence-threshold sensitivity sweeps',
+          'Kelly sizing, ATR stops, drawdown circuit breakers, and VaR/CVaR risk analysis'
+        ],
+        chips: ['cpy:Python', 'csk:XGBoost', 'cmp:LightGBM', 'ccv:PyTorch', 'cnl:MLflow'],
+        github: 'https://github.com/Yash789k/ML-TradeEngine',
+        demo: null
+      },
       m1: {
         title: 'ContextSign',/* PLACEHOLDER */
         tag: 'Context-Aware ASL Fingerspelling Recognition · CSCI 4511W',/* PLACEHOLDER */
@@ -2182,13 +2479,21 @@
       const inner = document.createElement('div');
       inner.className = d.gfxClass;
       inner.style.cssText = 'width:100%;height:100%';
+      if (d.image) {
+        const img = document.createElement('img');
+        img.src = d.image;
+        img.alt = '';
+        inner.appendChild(img);
+      }
       gfx.appendChild(inner);
       // buttons
       const bl = document.getElementById('m-btns');
       bl.innerHTML = '';
       const gh = document.createElement('a');
       gh.href = d.github; gh.target = '_blank'; gh.rel = 'noopener';
-      gh.className = 'bsm'; gh.innerHTML = '<i class="fab fa-github"></i> GitHub';
+      gh.className = 'bsm';
+      gh.innerHTML = '<i class="fab fa-github"></i> ' + (d.private ? 'GitHub · Private' : 'GitHub');
+      gh.setAttribute('aria-label', 'View ' + d.title + ' on GitHub' + (d.private ? ' (private repository)' : ''));
       bl.appendChild(gh);
       if (d.demo) {
         const dm = document.createElement('a');

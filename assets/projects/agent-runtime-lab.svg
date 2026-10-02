@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none">
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#27205b"/><stop offset="1" stop-color="#0b1020"/></radialGradient>
+  </defs>
+  <rect width="480" height="240" fill="url(#glow)"/>
+  <g stroke="#a78bfa" stroke-opacity=".35" stroke-width="1.5">
+    <path d="M131 120h38m142 0h34M240 74V50m0 116v27"/>
+    <path d="m161 116 8 4-8 4m176-8 8 4-8 4"/>
+  </g>
+  <rect x="34" y="94" width="97" height="52" rx="10" fill="#151a30" stroke="#818cf8" stroke-opacity=".35"/>
+  <rect x="169" y="74" width="142" height="92" rx="16" fill="#201840" stroke="#a78bfa" stroke-opacity=".65"/>
+  <rect x="345" y="94" width="101" height="52" rx="10" fill="#151a30" stroke="#818cf8" stroke-opacity=".35"/>
+  <path d="m240 87 13 5v12c0 9-13 15-13 15s-13-6-13-15V92Z" fill="#8b5cf6" fill-opacity=".2" stroke="#c4b5fd"/>
+  <path d="m234 103 4 4 8-9" stroke="#c4b5fd" stroke-width="2"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <text x="83" y="117" fill="#c7d2fe" font-size="11">Typed contracts</text>
+    <text x="83" y="133" fill="#818ca9" font-size="9">RUN · TOOL · EVENT</text>
+    <text x="240" y="137" fill="#ede9fe" font-size="13" font-weight="bold">Policy validation</text>
+    <text x="240" y="153" fill="#a78bfa" font-size="9">SCOPED · DEFAULT DENY</text>
+    <text x="395" y="117" fill="#c7d2fe" font-size="11">Decision</text>
+    <text x="395" y="133" fill="#818ca9" font-size="9">RULES + DIGEST</text>
+    <text x="240" y="42" fill="#b3accd" font-size="10" letter-spacing="1">CAPABILITY SCOPE</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="9" text-anchor="middle">
+    <rect x="107" y="194" width="76" height="23" rx="11" fill="#11382f"/><text x="145" y="209" fill="#6ee7b7">ALLOW</text>
+    <rect x="191" y="194" width="98" height="23" rx="11" fill="#392d20"/><text x="240" y="209" fill="#fcd34d">APPROVAL</text>
+    <rect x="297" y="194" width="76" height="23" rx="11" fill="#392137"/><text x="335" y="209" fill="#fda4af">DENY</text>
+  </g>
+  <text x="24" y="25" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">AGENT RUNTIME LAB</text>
+</svg>

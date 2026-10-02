@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none">
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#242348"/><stop offset="1" stop-color="#0b1020"/></radialGradient>
+  </defs>
+  <rect width="480" height="240" fill="url(#glow)"/>
+  <rect x="30" y="39" width="420" height="163" rx="10" fill="#121727" stroke="#818cf8" stroke-opacity=".4"/>
+  <path d="M30 68h420M113 68v134M312 68v134" stroke="#2c324b"/>
+  <g font-family="monospace" font-size="9">
+    <text x="45" y="57" fill="#a5b4fc">NEXUSIDE</text><text x="129" y="57" fill="#a1a6bf">workspace / review</text>
+    <text x="43" y="91" fill="#737d9f">EXPLORER</text><text x="44" y="116" fill="#bcc5e4">src/</text>
+    <text x="52" y="135" fill="#a78bfa">agent.ts</text><text x="52" y="154" fill="#8c96b8">tools.ts</text>
+    <text x="52" y="173" fill="#8c96b8">tests/</text>
+    <text x="128" y="91" fill="#737d9f">PROPOSED CHANGE</text>
+    <text x="326" y="91" fill="#737d9f">AGENT PLAN</text>
+  </g>
+  <rect x="123" y="104" width="177" height="23" rx="3" fill="#492538" fill-opacity=".7"/>
+  <rect x="123" y="132" width="177" height="44" rx="3" fill="#153d37" fill-opacity=".8"/>
+  <path d="M135 116h101" stroke="#d887a0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M135 145h89m-77 14h115" stroke="#65b6a1" stroke-width="3" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif" font-size="10" fill="#c7d2fe">
+    <text x="329" y="115">01  Inspect</text><text x="329" y="136">02  Propose</text><text x="329" y="157">03  Review + test</text>
+  </g>
+  <rect x="326" y="173" width="107" height="17" rx="8" fill="#8b5cf6" fill-opacity=".25"/>
+  <text x="379" y="185" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="8" text-anchor="middle">APPROVAL REQUIRED</text>
+  <text x="240" y="225" fill="#9b9bbf" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" letter-spacing="2">VS CODE · DASHBOARD · CLI</text>
+</svg>

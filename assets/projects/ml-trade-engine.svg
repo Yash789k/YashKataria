@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none">
+  <rect width="480" height="240" fill="#0b1020"/>
+  <text x="24" y="25" fill="#67e8f9" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">ML TRADE ENGINE</text>
+  <g font-family="Arial,sans-serif" font-size="9" text-anchor="middle">
+    <rect x="53" y="43" width="112" height="25" rx="12" fill="#342b27" stroke="#fb923c" stroke-opacity=".3"/>
+    <text x="109" y="59" fill="#fdba74">XGBoost</text>
+    <rect x="184" y="43" width="112" height="25" rx="12" fill="#15362f" stroke="#34d399" stroke-opacity=".3"/>
+    <text x="240" y="59" fill="#6ee7b7">LightGBM</text>
+    <rect x="315" y="43" width="112" height="25" rx="12" fill="#2c2347" stroke="#a78bfa" stroke-opacity=".3"/>
+    <text x="371" y="59" fill="#c4b5fd">LSTM</text>
+  </g>
+  <path d="M109 68v12h131m131-12v12H240m0-12v23" stroke="#657499" stroke-opacity=".5"/>
+  <rect x="53" y="91" width="374" height="100" rx="8" fill="#101b2c" stroke="#334155"/>
+  <path d="M68 112h344M68 137h344M68 162h344M122 102v76m59-76v76m59-76v76m59-76v76m59-76v76" stroke="#273549" stroke-dasharray="3 4"/>
+  <path d="m68 151 24-10 24 17 24-27 24 9 24-24 24 13 24 24 24-11 24 14 24-28 24 9 24-25 24 15 32-7" stroke="#a78bfa" stroke-opacity=".7" stroke-width="1.5"/>
+  <path d="m68 162 24-13 24 6 24-16 24 6 24-17 24 8 24 15 24-6 24 6 24-15 24 6 24-17 24 8 32-12" stroke="#22d3ee" stroke-width="2.5"/>
+  <path d="M68 177h344" stroke="#fb7185" stroke-opacity=".55" stroke-dasharray="5 5"/>
+  <text x="240" y="220" fill="#8ca7bf" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">ENSEMBLE SIGNALS → BACKTEST → RISK ANALYSIS</text>
+</svg>
