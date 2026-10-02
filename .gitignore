@@ -3,6 +3,8 @@
 .vscode/
 .idea/
 node_modules/
+dist/
+.playwright-mcp/
 .env
 .env.local
 
